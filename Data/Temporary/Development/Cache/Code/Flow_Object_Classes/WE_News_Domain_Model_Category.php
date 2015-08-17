@@ -20,12 +20,6 @@ class Category_Original {
 	protected $name;
 
 	/**
-	 * @var \Doctrine\Common\Collections\Collection<\WE\News\Domain\Model\News>
-	 * @ORM\ManyToMany(mappedBy="categories")
-	 */
-	protected $news;
-
-	/**
 	 * @var \TYPO3\Flow\Persistence\PersistenceManagerInterface
 	 * @Flow\Inject
 	 */

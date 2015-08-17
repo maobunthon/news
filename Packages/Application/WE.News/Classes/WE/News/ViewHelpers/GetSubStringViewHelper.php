@@ -25,6 +25,11 @@ class GetSubStringViewHelper extends AbstractViewHelper {
 	 */
 	public function render($str,$start,$end) {
 		$str = substr($str,$start,$end);
-		return $str;
+		if(strlen($str)<$end-$start){
+			return $str;
+		}else{
+			return $str . "&hellip;";
+		}
+
 	}
 }

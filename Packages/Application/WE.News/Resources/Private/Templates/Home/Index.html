@@ -50,22 +50,22 @@
 		</a>
 	</div>
 	<br>
-	<f:widget.paginate objects="{news}" as="newsItem" configuration="{itemsPerPage: 3, maximumNumberOfLinks: 7}">
+	<f:widget.paginate objects="{news}" as="newsItem" configuration="{itemsPerPage: 10, maximumNumberOfLinks: 7}">
 		<f:for each="{newsItem}" as="myNews">
 			<hr>
 			<div class="row">
-				<div class="col-md-3" style="margin-bottom: 10px">
+				<div class="col-md-3" >
 					<img width="100%" src="http://www.web-essentials.asia/_Resources/Persistent/9ac10974895fa5a41f61c338a7884255e66cd8eb/T3CON15-Asia-01banner-no-title.jpg" alt="...">
 				</div>
 				<div class="col-md-9">
 					<label><f:link.action action="detail" controller="Home" arguments="{news: '{myNews}'}">{myNews.title}</f:link.action></label>
-					<p><te:getSubString str="{myNews.content}" start="0" end="190"/></p>
-					<div class="row pull-right" style="padding-right: 15px;">
+					<p><te:getSubString str="{myNews.content}" start="0" end="188"/></p>
+					<div class="row pull-right" >
 						<f:for each="{myNews.categories}" as="category">
 							<span class="label label-default">{category.name}</span>
 						</f:for>
 					</div>
-					<div class="row pull-left"  style="padding-left: 15px;">
+					<div class="row pull-left"  >
 						<span class="label label-default">{myNews.user.name}</span>
 					</div>
 				</div>
@@ -78,7 +78,12 @@
 
 </f:section>
 <f:section name="Category">
-	<f:for each="{listCategory}" as="list">
-		<f:link.action action="filter" controller="Home" arguments="{category: '{list.identity}'}">{list.name}</f:link.action>
-	</f:for>
+	<div class="list-group">
+		<a class="list-group-item header">
+			Category
+		</a>
+		<f:for each="{listCategory}" as="list">
+				<f:link.action class="list-group-item" action="filter" controller="Home" arguments="{category: '{list.identity}'}">{list.name}</f:link.action>
+		</f:for>
+	</div>
 </f:section>

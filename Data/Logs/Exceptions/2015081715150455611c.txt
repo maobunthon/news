@@ -1,0 +1,98 @@
+Uncaught exception #1237823695 in line 521 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_Core_Parser_TemplateParser.php: Argument "tag" was not registered.
+
+25 TYPO3\Fluid\Core\Parser\TemplateParser_Original::abortIfUnregisteredArgumentsExist(array|4|, array|4|)
+24 TYPO3\Fluid\Core\Parser\TemplateParser_Original::initializeViewHelperAndAddItToStack(TYPO3\Fluid\Core\Parser\ParsingState, "f", "widget.paginate", array|4|)
+23 TYPO3\Fluid\Core\Parser\TemplateParser_Original::openingViewHelperTagHandler(TYPO3\Fluid\Core\Parser\ParsingState, "f", "widget.paginate", " objects="{newsList}" tag="tr" as="newsItem" configuration="{itemsPerPage: 5, maximumNumberOfLinks: 7}"", FALSE)
+22 TYPO3\Fluid\Core\Parser\TemplateParser_Original::buildObjectTree(array|60|, 2)
+21 TYPO3\Fluid\Core\Parser\TemplateParser_Original::parse("<f:layout name="AdminLayout" />
+
+<f:section name="Title">A list of news</f:section>
+
+<f:section name="Content">
+	<div class="row">
+		<div class="col-md-offset-2 col-md-8">
+			<table class="table">
+				<thead>
+				<tr>
+					<th width="400px">Title</th>
+					<th width="150px">By</th>
+					<th width="150px">On</th>
+					<th width="50px">Status</th>
+					<th colspan="2" class="text-center">Action</th>
+				</tr>
+				</thead>
+				<tbody>
+				<f:if condition="{newsList}">
+					<f:then>
+						<f:widget.paginate objects="{newsList}" tag="tr" as="newsItem" configuration="{itemsPerPage: 5, maximumNumberOfLinks: 7}">
+							<f:for each="{newsItem}" as="news">
+								<tr>
+									<td><f:link.action action="show" arguments="{news: news}">{news.title}</f:link.action></td>
+									<td><f:link.action action="show" arguments="{news: news}">{news.user.name}</f:link.action></td>
+									<td><f:link.action action="show" arguments="{news: news}">{news.date -> f:format.date(format: 'Y-m-d H:i')}</f:link.action></td>
+									<td><f:link.action action="show" arguments="{news: news}">{news.status}</f:link.action></td>
+									<td><f:link.action action="edit" arguments="{news: news}">Edit</f:link.action></td>
+									<td>
+										<f:form action="delete" arguments="{news: news}">
+											<f:form.submit value="Delete" />
+										</f:form>
+									</td>
+								</tr>
+							</f:for>
+						</f:widget.paginate>
+					</f:then>
+					<f:else>
+						<tr>
+							<td colspan="5" class="text-center">No news created yet.</td>
+						</tr>
+					</f:else>
+				</f:if>
+
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-2">
+
+		</div>
+	</div>
+
+	<p><f:link.action action="new">Create a new news</f:link.action></p>
+</f:section>
+")
+20 TYPO3\Fluid\View\AbstractTemplateView::render()
+19 TYPO3\Flow\Mvc\Controller\ActionController_Original::callActionMethod()
+18 TYPO3\Flow\Mvc\Controller\ActionController_Original::processRequest(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+17 TYPO3\Flow\Mvc\Dispatcher_Original::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+16 TYPO3\Flow\Mvc\Dispatcher::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+15 call_user_func_array(array|2|, array|2|)
+14 TYPO3\Flow\Mvc\Dispatcher::Flow_Aop_Proxy_invokeJoinPoint(TYPO3\Flow\Aop\JoinPoint)
+13 TYPO3\Flow\Aop\Advice\AdviceChain::proceed(TYPO3\Flow\Aop\JoinPoint)
+12 TYPO3\Flow\Security\Aspect\RequestDispatchingAspect_Original::blockIllegalRequestsAndForwardToAuthenticationEntryPoints(TYPO3\Flow\Aop\JoinPoint)
+11 TYPO3\Flow\Aop\Advice\AroundAdvice::invoke(TYPO3\Flow\Aop\JoinPoint)
+10 TYPO3\Flow\Aop\Advice\AdviceChain::proceed(TYPO3\Flow\Aop\JoinPoint)
+9 TYPO3\Flow\Mvc\Dispatcher::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+8 call_user_func_array(array|2|, array|2|)
+7 TYPO3\Flow\Object\DependencyInjection\DependencyProxy::__call("dispatch", array|2|)
+6 TYPO3\Flow\Object\DependencyInjection\DependencyProxy::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+5 TYPO3\Flow\Mvc\DispatchComponent_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+4 TYPO3\Flow\Http\Component\ComponentChain_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+3 TYPO3\Flow\Http\Component\ComponentChain_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+2 TYPO3\Flow\Http\RequestHandler::handleRequest()
+1 TYPO3\Flow\Core\Bootstrap::run()
+
+HTTP REQUEST:
+GET /we.news/news/index?--typo3-fluid-viewhelpers-widget-paginateviewhelper%5B%40package%5D=&--typo3-fluid-viewhelpers-widget-paginateviewhelper%5B%40subpackage%5D=&--typo3-fluid-viewhelpers-widget-paginateviewhelper%5B%40controller%5D=&--typo3-fluid-viewhelpers-widget-paginateviewhelper%5B%40action%5D=index HTTP/1.1
+Host: flow.bunthon.local
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36
+Referer: http://flow.bunthon.local/we.news/news/index?--typo3-fluid-viewhelpers-widget-paginateviewhelper%5B%40package%5D=&--typo3-fluid-viewhelpers-widget-paginateviewhelper%5B%40subpackage%5D=&--typo3-fluid-viewhelpers-widget-paginateviewhelper%5B%40controller%5D=&--typo3-fluid-viewhelpers-widget-paginateviewhelper%5B%40action%5D=index&--typo3-fluid-viewhelpers-widget-paginateviewhelper%5BcurrentPage%5D=2
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Cache-Control: max-age=0
+
+
+
+HTTP RESPONSE:
+[response was empty]

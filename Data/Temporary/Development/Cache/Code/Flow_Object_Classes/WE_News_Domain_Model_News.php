@@ -16,7 +16,7 @@ class News_Original {
 
 	/**
 	 * @var \Doctrine\Common\Collections\Collection<\WE\News\Domain\Model\Category>
-	 * @ORM\ManyToMany(inversedBy="news")
+	 * @ORM\ManyToMany
 	 */
 	protected $categories;
 

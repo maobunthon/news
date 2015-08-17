@@ -18,20 +18,22 @@
 				<tbody>
 				<f:if condition="{newsList}">
 					<f:then>
-						<f:for each="{newsList}" as="news">
-							<tr>
-								<td><f:link.action action="show" arguments="{news: news}">{news.title}</f:link.action></td>
-								<td><f:link.action action="show" arguments="{news: news}">{news.user.name}</f:link.action></td>
-								<td><f:link.action action="show" arguments="{news: news}">{news.date -> f:format.date(format: 'Y-m-d H:i')}</f:link.action></td>
-								<td><f:link.action action="show" arguments="{news: news}">{news.status}</f:link.action></td>
-								<td><f:link.action action="edit" arguments="{news: news}">Edit</f:link.action></td>
-								<td>
-									<f:form action="delete" arguments="{news: news}">
-										<f:form.submit value="Delete" />
-									</f:form>
-								</td>
-							</tr>
-						</f:for>
+						<f:widget.paginate objects="{newsList}" as="newsItem" configuration="{itemsPerPage: 5, maximumNumberOfLinks: 7}">
+							<f:for each="{newsItem}" as="news">
+								<tr>
+									<td><f:link.action action="show" arguments="{news: news}">{news.title}</f:link.action></td>
+									<td><f:link.action action="show" arguments="{news: news}">{news.user.name}</f:link.action></td>
+									<td><f:link.action action="show" arguments="{news: news}">{news.date -> f:format.date(format: 'Y-m-d H:i')}</f:link.action></td>
+									<td><f:link.action action="show" arguments="{news: news}">{news.status}</f:link.action></td>
+									<td><f:link.action action="edit" arguments="{news: news}">Edit</f:link.action></td>
+									<td>
+										<f:form action="delete" arguments="{news: news}" onsubmit="return confirm('Do you want to delete this news?')">
+											<f:form.submit value="Delete" />
+										</f:form>
+									</td>
+								</tr>
+							</f:for>
+						</f:widget.paginate>
 					</f:then>
 					<f:else>
 						<tr>

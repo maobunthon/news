@@ -50,7 +50,7 @@
 		</a>
 	</div>
 	<br>
-	<f:widget.paginate objects="{news}" as="newsItems" configuration="{itemsPerPage: 3, maximumNumberOfLinks: 7}">
+	<f:widget.paginate objects="{news}" as="newsItems" configuration="{itemsPerPage: 10, maximumNumberOfLinks: 7}">
 		<f:for each="{newsItems}" as="myNews">
 			<hr>
 			<div class="row">
@@ -74,7 +74,12 @@
 	</f:widget.paginate>
 </f:section>
 <f:section name="Category">
-	<f:for each="{listCategory}" as="list">
-		<f:link.action action="filter" controller="Home" arguments="{category: '{list.identity}'}">{list.name}</f:link.action>
-	</f:for>
+	<div class="list-group">
+		<a class="list-group-item header">
+			Category
+		</a>
+		<f:for each="{listCategory}" as="list">
+			<f:link.action class="list-group-item" action="filter" controller="Home" arguments="{category: '{list.identity}'}">{list.name}</f:link.action>
+		</f:for>
+	</div>
 </f:section>

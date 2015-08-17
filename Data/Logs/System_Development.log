@@ -22441,3 +22441,342 @@ Stack trace
 15-08-17 11:52:11 11002      DEBUG     Flow                 No CSRF required, safe request
 15-08-17 11:52:13 11002      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
 15-08-17 11:52:13 11002      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:37:47 3754       INFO      Flow                 Domain model changes have been detected, triggering Doctrine 2 proxy rebuilding.
+15-08-17 13:37:47 3754       INFO      Flow                 File Monitor "Flow_ClassFiles" detected 2 changed files and 0 changed directories.
+15-08-17 13:37:47 14358      DEBUG     Flow                 Forget class WE\News\Domain\Model\Category
+15-08-17 13:37:47 14358      DEBUG     Flow                 Forget class WE\News\Domain\Model\News
+15-08-17 13:37:47 14358      DEBUG     Flow                 Reflected class names did not match class names to reflect
+15-08-17 13:37:47 14358      DEBUG     Flow                 Reflecting class WE\News\Domain\Model\Category
+15-08-17 13:37:47 14358      DEBUG     Flow                 Reflecting class WE\News\Domain\Model\News
+15-08-17 13:37:47 14358      INFO      Flow                 Reflected 2 emerged classes.
+15-08-17 13:37:48 14358      DEBUG     Flow                 Built AOP proxy for class "WE\News\Domain\Model\Category".
+15-08-17 13:37:48 14358      DEBUG     Flow                 Built AOP proxy for class "WE\News\Domain\Model\News".
+15-08-17 13:37:48 14358      DEBUG     Flow                 Building DI proxy for "WE\News\Domain\Model\Category".
+15-08-17 13:37:48 14358      DEBUG     Flow                 Building DI proxy for "WE\News\Domain\Model\News".
+15-08-17 13:37:48 14358      DEBUG     Flow                 Found 2 classes whose reflection data was not cached previously.
+15-08-17 13:37:48 3754       DEBUG     Flow                 Compiling Doctrine proxies
+15-08-17 13:37:48 3754       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 13:37:48 3754       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:37:52 10927      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 13:37:52 10927      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:37:55 10927      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 13:37:55 10927      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:37:59 10927      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:37:59 10927      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:38:02 10927      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 13:38:02 10927      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:38:03 10927      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:38:03 10927      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:44:01 4281       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:44:01 4281       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:44:12 3754       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 13:44:12 3754       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:44:15 10927      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 13:44:15 10927      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:44:17 10927      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 13:44:17 10927      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:45:03 10779      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:45:03 10779      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:46:55 4281       INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 13:46:55 4281       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:46:55 4281       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:47:38 14558      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 13:47:38 14558      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:47:38 14558      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:48:52 10927      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:48:52 10927      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:49:01 3758       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:49:01 3758       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:49:24 4281       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:49:24 4281       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:50:15 10188      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:50:15 10188      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:50:19 3754       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:50:19 3754       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:50:55 10779      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 13:50:55 10779      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:50:55 10779      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:51:38 14627      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:51:38 14627      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:51:49 10306      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:51:49 10306      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:53:18 10779      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:53:18 10779      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:53:51 14706      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:53:51 14706      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:53:56 4281       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:53:56 4281       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:54:31 14737      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:54:31 14737      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:56:02 14759      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:56:02 14759      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:56:33 3754       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:56:33 3754       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:57:12 14832      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:57:12 14832      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 13:57:54 14783      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 13:57:54 14783      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:00:39 14812      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:00:39 14812      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:01:36 10188      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:01:36 10188      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:02:55 10779      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:02:55 10779      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:03:32 14902      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:03:32 14902      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:05:05 10188      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:05:05 10188      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:06:15 14865      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:06:15 14865      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:06:23 14902      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:06:23 14902      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:07:33 14737      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:07:33 14737      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:07:33 14737      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:08:06 15080      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:08:06 15080      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:09:00 15116      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:09:00 15116      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:09:04 15080      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:09:04 15080      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:09:05 14812      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:09:05 14812      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:09:27 14737      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:09:27 14737      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:10:28 15116      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:10:28 15116      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:10:28 15116      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:13:01 14737      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:13:01 14737      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:13:24 15116      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:13:24 15116      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:21:29 14902      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:21:29 14902      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:22:15 15116      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:22:15 15116      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:22:23 14902      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:22:23 14902      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:22:34 15116      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:22:34 15116      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:22:50 3754       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:22:50 3754       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:23:12 15354      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:23:12 15354      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:23:46 15444      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:23:46 15444      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:24:14 14812      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:24:14 14812      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:24:25 14902      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:24:25 14902      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:31:09 3754       INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:31:09 3754       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:31:09 3754       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:32:54 15807      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:32:54 15807      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:32:54 15807      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:33:08 3754       INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:33:09 3754       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:33:09 3754       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:35:03 15080      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:35:03 15080      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:35:03 15080      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:35:54 15807      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:35:54 15807      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:36:57 15354      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:36:57 15354      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:37:07 15807      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:37:07 15807      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:37:42 16264      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "734c488796dee67369e1fc0fccbf5673" matched the path "we.news/home/index".
+15-08-17 14:37:43 16264      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:37:47 16264      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:37:47 16264      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:38:55 16487      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:38:55 16487      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:38:55 16487      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:38:58 15080      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:38:58 15080      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:39:00 15080      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:39:00 15080      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:39:01 15080      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:39:01 15080      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:39:03 15080      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:39:03 15080      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:39:04 15080      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:39:04 15080      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:39:06 15080      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:39:06 15080      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:39:16 16607      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:39:17 16607      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:39:17 16607      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:39:28 16267      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:39:28 16267      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:39:32 16264      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:39:32 16264      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:43:02 16487      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:43:02 16487      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:43:02 16487      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:43:42 16586      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:43:42 16586      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:43:45 16267      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0896c8c87dfc8913998d2a5fba4eeaf5" matched the path "we.news/home/filter".
+15-08-17 14:43:45 16267      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:43:48 16267      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:43:48 16267      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:44:15 16264      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 2 changed files and 0 changed directories.
+15-08-17 14:44:15 16264      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:44:15 16264      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:44:33 16487      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "bcf2602c22be73a222bb457ad5716b90" matched the path "we.news/home/detail".
+15-08-17 14:44:33 16487      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:49:07 16586      INFO      Flow                 File Monitor "Flow_ClassFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:49:07 16837      DEBUG     Flow                 Forget class WE\News\ViewHelpers\GetSubStringViewHelper
+15-08-17 14:49:07 16837      DEBUG     Flow                 Reflected class names did not match class names to reflect
+15-08-17 14:49:07 16837      DEBUG     Flow                 Reflecting class WE\News\ViewHelpers\GetSubStringViewHelper
+15-08-17 14:49:07 16837      INFO      Flow                 Reflected 1 emerged classes.
+15-08-17 14:49:08 16837      DEBUG     Flow                 Building DI proxy for "WE\News\ViewHelpers\GetSubStringViewHelper".
+15-08-17 14:49:08 16837      DEBUG     Flow                 Found 1 classes whose reflection data was not cached previously.
+15-08-17 14:49:08 16586      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "bcf2602c22be73a222bb457ad5716b90" matched the path "we.news/home/detail".
+15-08-17 14:49:08 16586      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:49:10 3754       DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:49:10 3754       DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:50:22 14902      INFO      Flow                 File Monitor "Flow_ClassFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:50:23 16934      DEBUG     Flow                 Forget class WE\News\ViewHelpers\GetSubStringViewHelper
+15-08-17 14:50:23 16934      DEBUG     Flow                 Reflected class names did not match class names to reflect
+15-08-17 14:50:23 16934      DEBUG     Flow                 Reflecting class WE\News\ViewHelpers\GetSubStringViewHelper
+15-08-17 14:50:23 16934      INFO      Flow                 Reflected 1 emerged classes.
+15-08-17 14:50:23 16934      DEBUG     Flow                 Building DI proxy for "WE\News\ViewHelpers\GetSubStringViewHelper".
+15-08-17 14:50:23 16934      DEBUG     Flow                 Found 1 classes whose reflection data was not cached previously.
+15-08-17 14:50:23 14902      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:50:23 14902      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:51:09 16264      INFO      Flow                 File Monitor "Flow_ClassFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:51:09 16264      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:51:09 16949      DEBUG     Flow                 Forget class WE\News\ViewHelpers\GetSubStringViewHelper
+15-08-17 14:51:09 16949      DEBUG     Flow                 Reflected class names did not match class names to reflect
+15-08-17 14:51:09 16949      DEBUG     Flow                 Reflecting class WE\News\ViewHelpers\GetSubStringViewHelper
+15-08-17 14:51:09 16949      INFO      Flow                 Reflected 1 emerged classes.
+15-08-17 14:51:09 16949      DEBUG     Flow                 Building DI proxy for "WE\News\ViewHelpers\GetSubStringViewHelper".
+15-08-17 14:51:09 16949      DEBUG     Flow                 Found 1 classes whose reflection data was not cached previously.
+15-08-17 14:51:09 16264      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:51:09 16264      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:51:17 16839      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:51:17 16839      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:51:17 16839      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 14:51:27 16264      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 14:51:27 16264      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 14:51:27 16264      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:06:11 16487      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "0238691f0662435fdd3839172426676d" matched the path "login".
+15-08-17 15:06:11 16487      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:06:18 16962      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "86d8d78d51669e5fe21fee5c7b8580ea" matched the path "login/authenticate".
+15-08-17 15:06:19 16962      INFO      Flow                 Session: Started session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK.
+15-08-17 15:06:19 16962      NOTICE    Flow                 CSRF protection filter: allowed POST request without requiring CSRF token because action "authenticateAction" in controller "WE\News\Controller\LoginController" is not restricted by a policy.
+15-08-17 15:06:19 16962      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 1 second. (1s)
+15-08-17 15:06:19 16962      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "6f2beeac70f95fb3cbcb6308c0f46c1b" matched the path "news".
+15-08-17 15:06:19 16962      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:09:37 15354      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 15:09:37 15354      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 3 minutes. (198s)
+15-08-17 15:09:37 15354      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "6f2beeac70f95fb3cbcb6308c0f46c1b" matched the path "news".
+15-08-17 15:09:37 15354      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:09:45 16487      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 15:09:45 16487      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 8 seconds. (8s)
+15-08-17 15:09:45 16487      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "6f2beeac70f95fb3cbcb6308c0f46c1b" matched the path "news".
+15-08-17 15:09:45 16487      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:09:49 16487      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 4 seconds. (4s)
+15-08-17 15:09:49 16487      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:09:50 16487      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 1 second. (1s)
+15-08-17 15:09:50 16487      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "50c4fa8acb7e10455ebff6e0f6525826" matched the path "we.news/news/index".
+15-08-17 15:09:50 16487      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:09:50 16487      INFO      Flow                 Session: Triggered garbage collection and removed 1 expired sessions.
+15-08-17 15:15:04 15354      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 15:15:04 15354      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 5 minutes. (314s)
+15-08-17 15:15:04 15354      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "50c4fa8acb7e10455ebff6e0f6525826" matched the path "we.news/news/index".
+15-08-17 15:15:04 15354      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:15:04 15354      CRITICAL  Fluid                Uncaught exception #1237823695 in line 521 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_Core_Parser_TemplateParser.php: Argument "tag" was not registered. - See also: 2015081715150455611c.txt
+15-08-17 15:22:44 16264      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 15:22:44 16264      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 12 minutes. (774s)
+15-08-17 15:22:44 16264      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "50c4fa8acb7e10455ebff6e0f6525826" matched the path "we.news/news/index".
+15-08-17 15:22:44 16264      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:22:48 17402      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 4 seconds. (4s)
+15-08-17 15:22:48 17402      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "50c4fa8acb7e10455ebff6e0f6525826" matched the path "we.news/news/index".
+15-08-17 15:22:48 17402      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:25:09 16586      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 2 minutes. (141s)
+15-08-17 15:25:09 16586      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "50c4fa8acb7e10455ebff6e0f6525826" matched the path "we.news/news/index".
+15-08-17 15:25:09 16586      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:31:04 16951      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 5 minutes. (355s)
+15-08-17 15:31:04 16951      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "50c4fa8acb7e10455ebff6e0f6525826" matched the path "we.news/news/index".
+15-08-17 15:31:04 16951      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:31:04 16951      INFO      Flow                 Session: Triggered garbage collection but no sessions needed to be removed.
+15-08-17 15:31:05 16951      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 1 second. (1s)
+15-08-17 15:31:05 16951      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "50c4fa8acb7e10455ebff6e0f6525826" matched the path "we.news/news/index".
+15-08-17 15:31:05 16951      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:33:19 16267      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 15:33:19 16267      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 2 minutes. (134s)
+15-08-17 15:33:19 16267      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "50c4fa8acb7e10455ebff6e0f6525826" matched the path "we.news/news/index".
+15-08-17 15:33:19 16267      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:33:28 17405      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 9 seconds. (9s)
+15-08-17 15:33:28 17405      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:34:11 17402      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 43 seconds. (43s)
+15-08-17 15:34:11 17402      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "6f2beeac70f95fb3cbcb6308c0f46c1b" matched the path "news".
+15-08-17 15:34:11 17402      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:34:20 16951      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 9 seconds. (9s)
+15-08-17 15:34:20 16951      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:34:20 16951      CRITICAL  Fluid                Uncaught exception #1227108982 in line 92 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_ViewHelpers_RenderViewHelper.php: Could not render unknown section "Category" in TYPO3\Fluid\View\TemplateView used by WE\News\Controller\CategoryController. - See also: 20150817153420a1a2b6.txt
+15-08-17 15:34:33 17884      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 22 seconds. (22s)
+15-08-17 15:34:33 17884      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:34:45 17668      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 34 seconds. (34s)
+15-08-17 15:34:45 17668      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:34:45 17668      CRITICAL  Fluid                Uncaught exception #1225709595 in line 227 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_View_TemplateView.php: Template could not be loaded. I tried "resource://WE.News/Private/Templates/Category/Index.php" - See also: 201508171534453a497d.txt
+15-08-17 15:35:00 16487      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 49 seconds. (49s)
+15-08-17 15:35:00 16487      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:35:41 16586      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 90 seconds. (90s)
+15-08-17 15:35:41 16586      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:35:41 16586      CRITICAL  Fluid                Uncaught exception #1227108982 in line 92 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_ViewHelpers_RenderViewHelper.php: Could not render unknown section "Category" in TYPO3\Fluid\View\TemplateView used by WE\News\Controller\CategoryController. - See also: 20150817153541c9e2f7.txt
+15-08-17 15:36:18 17405      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 15:36:18 17405      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 2 minutes. (127s)
+15-08-17 15:36:18 17405      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "94ceae0b04bea91602d5a2b1f817f985" matched the path "we.news/category/new".
+15-08-17 15:36:18 17405      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:36:55 16951      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 3 changed files and 0 changed directories.
+15-08-17 15:36:55 16951      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 2 minutes. (164s)
+15-08-17 15:36:55 16951      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "94ceae0b04bea91602d5a2b1f817f985" matched the path "we.news/category/new".
+15-08-17 15:36:55 16951      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:37:08 15354      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 13 seconds. (13s)
+15-08-17 15:37:08 15354      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "a6d6006e769d38712a5d9f292b86330a" matched the path "we.news/category/index.php".
+15-08-17 15:37:08 15354      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:37:08 15354      CRITICAL  Fluid                Uncaught exception #1225709595 in line 227 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_View_TemplateView.php: Template could not be loaded. I tried "resource://WE.News/Private/Templates/Category/Index.php" - See also: 20150817153708ff7377.txt
+15-08-17 15:40:05 17668      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 15:40:05 17668      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 3 minutes. (190s)
+15-08-17 15:40:05 17668      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "a6d6006e769d38712a5d9f292b86330a" matched the path "we.news/category/index.php".
+15-08-17 15:40:05 17668      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:40:05 17668      CRITICAL  Fluid                Uncaught exception #1225709595 in line 227 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_View_TemplateView.php: Template could not be loaded. I tried "resource://WE.News/Private/Templates/Category/Index.php" - See also: 20150817154005659c18.txt
+15-08-17 15:40:15 14902      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 15:40:15 14902      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 3 minutes. (200s)
+15-08-17 15:40:15 14902      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "a6d6006e769d38712a5d9f292b86330a" matched the path "we.news/category/index.php".
+15-08-17 15:40:15 14902      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:40:15 14902      CRITICAL  Fluid                Uncaught exception #1225709595 in line 227 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_View_TemplateView.php: Template could not be loaded. I tried "resource://WE.News/Private/Templates/Category/Index.php" - See also: 201508171540156e54ce.txt
+15-08-17 15:40:16 15354      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 3 minutes. (201s)
+15-08-17 15:40:16 15354      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "a6d6006e769d38712a5d9f292b86330a" matched the path "we.news/category/index.php".
+15-08-17 15:40:16 15354      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:40:16 15354      CRITICAL  Fluid                Uncaught exception #1225709595 in line 227 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_View_TemplateView.php: Template could not be loaded. I tried "resource://WE.News/Private/Templates/Category/Index.php" - See also: 20150817154016cee6fb.txt
+15-08-17 15:40:16 17402      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 3 minutes. (201s)
+15-08-17 15:40:16 17402      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "a6d6006e769d38712a5d9f292b86330a" matched the path "we.news/category/index.php".
+15-08-17 15:40:16 17402      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:40:16 17402      CRITICAL  Fluid                Uncaught exception #1225709595 in line 227 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_View_TemplateView.php: Template could not be loaded. I tried "resource://WE.News/Private/Templates/Category/Index.php" - See also: 20150817154016dae143.txt
+15-08-17 15:40:17 16267      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 3 minutes. (202s)
+15-08-17 15:40:17 16267      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "a6d6006e769d38712a5d9f292b86330a" matched the path "we.news/category/index.php".
+15-08-17 15:40:17 16267      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:40:17 16267      CRITICAL  Fluid                Uncaught exception #1225709595 in line 227 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_View_TemplateView.php: Template could not be loaded. I tried "resource://WE.News/Private/Templates/Category/Index.php" - See also: 201508171540166f61f9.txt
+15-08-17 15:40:17 17405      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 3 minutes. (202s)
+15-08-17 15:40:17 17405      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "a6d6006e769d38712a5d9f292b86330a" matched the path "we.news/category/index.php".
+15-08-17 15:40:17 17405      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:40:17 17405      CRITICAL  Fluid                Uncaught exception #1225709595 in line 227 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_View_TemplateView.php: Template could not be loaded. I tried "resource://WE.News/Private/Templates/Category/Index.php" - See also: 201508171540171d4add.txt
+15-08-17 15:41:34 17884      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 4 minutes. (279s)
+15-08-17 15:41:34 17884      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "98ebad6f364baaa6ceec1e7606da05ca" matched the path "category".
+15-08-17 15:41:34 17884      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:41:34 17884      CRITICAL  Fluid                Uncaught exception #1227108982 in line 92 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_ViewHelpers_RenderViewHelper.php: Could not render unknown section "Category" in TYPO3\Fluid\View\TemplateView used by WE\News\Controller\CategoryController. - See also: 20150817154134602c2e.txt
+15-08-17 15:41:51 17917      INFO      Flow                 File Monitor "Fluid_TemplateFiles" detected 1 changed files and 0 changed directories.
+15-08-17 15:41:51 17917      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 4 minutes. (296s)
+15-08-17 15:41:51 17917      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "98ebad6f364baaa6ceec1e7606da05ca" matched the path "category".
+15-08-17 15:41:51 17917      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:43:30 16267      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 99 seconds. (99s)
+15-08-17 15:43:30 16267      DEBUG     Flow                 No CSRF required, safe request
+15-08-17 15:43:30 16267      INFO      Flow                 Session: Triggered garbage collection but no sessions needed to be removed.
+15-08-17 15:43:56 17405      DEBUG     Flow                 Session: Resumed session with id lnz9oWy7Xo3neCRgTJPxq1H9iMDhKpGK which was inactive for 26 seconds. (26s)
+15-08-17 15:43:56 17405      DEBUG     Flow                 Router route(): A cached Route with the cache identifier "cb46929622ba7f388d035b76e6bd7e6d" matched the path "".
+15-08-17 15:43:56 17405      DEBUG     Flow                 No CSRF required, safe request

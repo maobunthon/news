@@ -27,14 +27,16 @@ body .nav-custom .image-full div {
 body .nav-custom .social-button {
   padding: 0px 3px;
 }
+.page-navigation {
+  margin-bottom: 50px;
+}
 .page-navigation ul {
   list-style-type: none;
 }
 .page-navigation ul li {
   padding: 0px 10px;
   float: left;
-  background: deepskyblue;
-  color: white;
+  border: 1px solid #cccccc;
   text-align: center;
   margin-right: 2px;
   height: 30px;
@@ -43,4 +45,16 @@ body .nav-custom .social-button {
 }
 .page-navigation .typo3-widget-paginator {
   padding: 0px;
+}
+.list-group {
+  margin: 10px 0px;
+}
+.list-group .list-group-item {
+  text-align: left;
+}
+.list-group .header,
+.list-group .header:hover {
+  color: #ffffff;
+  background: #337ab7;
+  text-align: center;
 }
