@@ -1,0 +1,41 @@
+#                                                                        #Index view of Standard controller
+# Routes configuration for the News package                              #
+#                                                                        #
+#
+# In order to activate those routes, add the following snippet to the main
+# Routes.yaml file of your distribution:
+#
+
+-
+  name: 'Home Page'
+  uriPattern:      ''
+  defaults:
+    '@package':    'WE.News'
+    '@controller': 'Home'
+    '@action':     'index'
+
+-
+  name: 'Login'
+  uriPattern:      'login'
+  defaults:
+    '@package':    'WE.News'
+    '@controller': 'Login'
+    '@action':     'login'
+
+-
+  name: 'default'
+  uriPattern: '{@controller}(/{@action})'
+  defaults:
+    '@controller': 'News'
+    '@action':     'index'
+
+-
+  name: 'News'
+  uriPattern: 'news/show/{news}'
+  defaults:
+    '@controller': 'News'
+    '@action':     'show'
+  routeParts:
+    news:
+      objectType: 'WE\News\Domain\Model\News'
+      uriPattern: '{name}'

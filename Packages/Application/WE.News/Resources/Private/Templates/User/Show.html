@@ -1,0 +1,51 @@
+<f:layout name="Default" />
+
+<f:section name="Title">{account.accountIdentifier}</f:section>
+<f:section name="PageTitle">
+	{account.accountIdentifier}
+	<div class="pull-right">
+		<f:link.action class="btn btn-primary btn-sm" action="edit" arguments="{account: account}">
+			<span class="glyphicon glyphicon-edit"></span> Edit
+		</f:link.action>
+	</div>
+</f:section>
+
+<f:section name="Content">
+	<table class="table table-hover table-striped">
+		<tr>
+			<th>Account Name: </th>
+			<td>{account.accountIdentifier}</td>
+		</tr>
+		<tr>
+			<th>Full Name: </th>
+			<td>{account.party.name.fullname}</td>
+		</tr>
+		<tr>
+			<th>First Name: </th>
+			<td>{account.party.name.firstname}</td>
+		</tr>
+		<tr>
+			<th>Last Name: </th>
+			<td>{account.party.name.lastname}</td>
+		</tr>
+		<f:for each="{account.roles}" as="role">
+			<tr>
+			<th>Role: </th>
+			<td>{role}</td>
+		</tr>
+		</f:for>
+		<f:if condition="{account.party.electronicAddresses}">
+
+			<f:for each="{account.party.electronicAddresses}" as="electronicAddress">
+				<tr>
+					<th>
+						{electronicAddress.type}:
+					</th>
+					<td>
+						{electronicAddress.identifier}
+					</td>
+				</tr>
+			</f:for>
+		</f:if>
+	</table>
+</f:section>

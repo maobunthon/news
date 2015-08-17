@@ -1,0 +1,32 @@
+{namespace te=WE\News\ViewHelpers}
+<f:layout name="Default" />
+
+<f:section name="Title">Show By Category</f:section>
+
+<f:section name="Content">
+
+
+	<div class="row">
+		<div class="col-md-3" style="margin-bottom: 10px">
+			<img width="100%" src="http://www.web-essentials.asia/_Resources/Persistent/9ac10974895fa5a41f61c338a7884255e66cd8eb/T3CON15-Asia-01banner-no-title.jpg" alt="...">
+		</div>
+		<div class="col-md-9">
+			<label>{news.title}</label>
+			<p>{news.content}"</p>
+			<div class="row pull-right" style="padding-right: 15px;">
+				<f:for each="{news.categories}" as="category">
+					<span class="label label-default">{category.name}</span>
+				</f:for>
+			</div>
+			<div class="row pull-left"  style="padding-left: 15px;">
+				<span class="label label-default">{news.user.name}</span>
+			</div>
+		</div>
+	</div>
+
+</f:section>
+<f:section name="Category">
+	<f:for each="{listCategory}" as="list">
+		<f:link.action action="filter" controller="Home" arguments="{category: '{list.identity}'}">{list.name}</f:link.action>
+	</f:for>
+</f:section>

@@ -1,0 +1,34 @@
+#                                                                        #
+# Settings Configuration for the News package                            #
+#                                                                        #
+
+TYPO3:
+  Flow:
+    security:
+      authentication:
+        authenticationStrategy: oneToken
+        providers:
+          DefaultProvider:
+            provider: 'PersistedUsernamePasswordProvider'
+            entryPoint: 'WebRedirect'
+            entryPointOptions:
+              uri: 'login'
+
+TYPO3:
+  Flow:
+    resource:
+      storages:
+        defaultPersistentResourcesStorage:
+          storage: 'TYPO3\Flow\Resource\Storage\WritableFileSystemStorage'
+          storageOptions:
+            path: '%FLOW_PATH_DATA%Persistent/Resources/'
+
+TYPO3:
+  Flow:
+    resource:
+      targets:
+        localWebDirectoryPersistentResourcesTarget:
+          target: 'TYPO3\Flow\Resource\Target\FileSystemSymlinkTarget'
+          targetOptions:
+            path: '%FLOW_PATH_WEB%_Resources/Persistent/'
+            baseUri: '_Resources/Persistent/'

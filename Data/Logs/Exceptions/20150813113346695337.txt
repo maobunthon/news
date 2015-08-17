@@ -1,0 +1,77 @@
+Uncaught exception #1407060572 in line 480 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Fluid_Core_Parser_TemplateParser.php: The ViewHelper "<te:getCheckCategoryInNews>" could not be resolved.
+Based on your spelling, the system would load the class "WE\News\ViewHelpers\GetCheckCategoryInNewsViewHelper", however this class does not exist.
+
+28 TYPO3\Fluid\Core\Parser\TemplateParser_Original::initializeViewHelperAndAddItToStack(TYPO3\Fluid\Core\Parser\ParsingState, "te", "getCheckCategoryInNews", array|2|)
+27 TYPO3\Fluid\Core\Parser\TemplateParser_Original::openingViewHelperTagHandler(TYPO3\Fluid\Core\Parser\ParsingState, "te", "getCheckCategoryInNews", " news='{news}' category='{category}'", TRUE)
+26 TYPO3\Fluid\Core\Parser\TemplateParser_Original::buildObjectTree(array|1|, 1)
+25 TYPO3\Fluid\Core\Parser\TemplateParser_Original::buildArgumentObjectTree("<te:getCheckCategoryInNews news='{news}' category='{category}'/>")
+24 TYPO3\Fluid\Core\Parser\TemplateParser_Original::parseArguments(" property="categories" checked="<te:getCheckCategoryInNews news='{news}' category='{category}'/>" id="category" value="{category.identity}" multiple="true"")
+23 TYPO3\Fluid\Core\Parser\TemplateParser_Original::openingViewHelperTagHandler(TYPO3\Fluid\Core\Parser\ParsingState, "f", "form.checkbox", " property="categories" checked="<te:getCheckCategoryInNews news='{news}' category='{category}'/>" id="category" value="{category.identity}" multiple="true"", TRUE)
+22 TYPO3\Fluid\Core\Parser\TemplateParser_Original::buildObjectTree(array|31|, 2)
+21 TYPO3\Fluid\Core\Parser\TemplateParser_Original::parse("{namespace te=WE\News\ViewHelpers}
+<f:layout name="Default" />
+
+<f:section name="Title">Edit news "{news.name}"</f:section>
+
+<f:section name="Content">
+	<f:form action="update" object="{news}" objectName="news">
+		<div class="col-md-offset-2 col-md-8">
+			<p>Just fill out the following form to post a new news:</p>
+
+				<label for="name">Title</label>
+				<f:form.textfield property="title" id="name" class="form-control" />
+				<label for="name">content</label>
+				<f:form.textarea property="content" id="name" class="form-control" />
+				<label for="name">Status</label>
+				<f:form.checkbox value="1" checked="{news.status} == 1" property="status" />
+
+				<label>Category</label><br>
+				<f:for each="{allCategories}" as="category">
+					<f:form.checkbox property="categories" checked="<te:getCheckCategoryInNews news='{news}' category='{category}'/>" id="category" value="{category.identity}" multiple="true"/><label>{category.name}</label><br>
+				</f:for>
+
+				<f:form.hidden value="{f:format.date(date: 'now', format: 'Y-m-d\TH:i:sP')}" property="date" id="date" />
+				<br>
+				<f:form.submit value="Update" class="btn btn-success" />
+
+		</div>
+	</f:form>
+</f:section>
+")
+20 TYPO3\Fluid\View\AbstractTemplateView::render()
+19 TYPO3\Flow\Mvc\Controller\ActionController_Original::callActionMethod()
+18 TYPO3\Flow\Mvc\Controller\ActionController_Original::processRequest(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+17 TYPO3\Flow\Mvc\Dispatcher_Original::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+16 TYPO3\Flow\Mvc\Dispatcher::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+15 call_user_func_array(array|2|, array|2|)
+14 TYPO3\Flow\Mvc\Dispatcher::Flow_Aop_Proxy_invokeJoinPoint(TYPO3\Flow\Aop\JoinPoint)
+13 TYPO3\Flow\Aop\Advice\AdviceChain::proceed(TYPO3\Flow\Aop\JoinPoint)
+12 TYPO3\Flow\Security\Aspect\RequestDispatchingAspect_Original::blockIllegalRequestsAndForwardToAuthenticationEntryPoints(TYPO3\Flow\Aop\JoinPoint)
+11 TYPO3\Flow\Aop\Advice\AroundAdvice::invoke(TYPO3\Flow\Aop\JoinPoint)
+10 TYPO3\Flow\Aop\Advice\AdviceChain::proceed(TYPO3\Flow\Aop\JoinPoint)
+9 TYPO3\Flow\Mvc\Dispatcher::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+8 call_user_func_array(array|2|, array|2|)
+7 TYPO3\Flow\Object\DependencyInjection\DependencyProxy::__call("dispatch", array|2|)
+6 TYPO3\Flow\Object\DependencyInjection\DependencyProxy::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+5 TYPO3\Flow\Mvc\DispatchComponent_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+4 TYPO3\Flow\Http\Component\ComponentChain_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+3 TYPO3\Flow\Http\Component\ComponentChain_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+2 TYPO3\Flow\Http\RequestHandler::handleRequest()
+1 TYPO3\Flow\Core\Bootstrap::run()
+
+HTTP REQUEST:
+GET /we.news/news/edit?news%5B__identity%5D=37e87020-adb9-8c70-5cb9-5f0376acaedd HTTP/1.1
+Host: flow.bunthon.local
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36
+Referer: http://flow.bunthon.local/news
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Cache-Control: max-age=0
+
+
+
+HTTP RESPONSE:
+[response was empty]

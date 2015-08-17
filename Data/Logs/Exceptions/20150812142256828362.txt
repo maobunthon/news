@@ -1,0 +1,54 @@
+Uncaught exception in line 776 of /var/www/html/news/Packages/Libraries/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php: A new entity was found through the relationship 'TYPO3\Flow\Security\Account#roles' that was not configured to cascade persist operations for entity: Anonymous. To solve this issue: Either explicitly call EntityManager#persist() on this unknown entity or configure cascade persist  this association in the mapping for example @ManyToOne(..,cascade={"persist"}).
+
+32 Doctrine\ORM\ORMInvalidArgumentException::newEntityFoundThroughRelationship(array|20|, TYPO3\Flow\Security\Policy\Role)
+31 Doctrine\ORM\UnitOfWork::computeAssociationChanges(array|20|, Doctrine\ORM\PersistentCollection)
+30 Doctrine\ORM\UnitOfWork::computeChangeSet(TYPO3\Flow\Persistence\Doctrine\Mapping\ClassMetadata, TYPO3\Flow\Security\Account)
+29 Doctrine\ORM\UnitOfWork::computeScheduleInsertsChangeSets()
+28 Doctrine\ORM\UnitOfWork::computeChangeSets()
+27 Doctrine\ORM\UnitOfWork::commit(NULL)
+26 Doctrine\ORM\EntityManager::flush()
+25 TYPO3\Flow\Persistence\Doctrine\PersistenceManager_Original::persistAll()
+24 TYPO3\Flow\Package::TYPO3\Flow\{closure}(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response, WE\News\Controller\UserController, "TYPO3\Flow\Mvc\Dispatcher::afterControllerInvocation")
+23 Closure::__invoke(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response, WE\News\Controller\UserController, "TYPO3\Flow\Mvc\Dispatcher::afterControllerInvocation")
+22 call_user_func_array(array|2|, array|4|)
+21 TYPO3\Flow\SignalSlot\Dispatcher::dispatch("TYPO3\Flow\Mvc\Dispatcher", "afterControllerInvocation", array|3|)
+20 TYPO3\Flow\SignalSlot\SignalAspect_Original::forwardSignalToDispatcher(TYPO3\Flow\Aop\JoinPoint)
+19 TYPO3\Flow\Aop\Advice\AbstractAdvice::invoke(TYPO3\Flow\Aop\JoinPoint)
+18 TYPO3\Flow\Mvc\Dispatcher::emitAfterControllerInvocation(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response, WE\News\Controller\UserController)
+17 TYPO3\Flow\Mvc\Dispatcher_Original::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+16 TYPO3\Flow\Mvc\Dispatcher::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+15 call_user_func_array(array|2|, array|2|)
+14 TYPO3\Flow\Mvc\Dispatcher::Flow_Aop_Proxy_invokeJoinPoint(TYPO3\Flow\Aop\JoinPoint)
+13 TYPO3\Flow\Aop\Advice\AdviceChain::proceed(TYPO3\Flow\Aop\JoinPoint)
+12 TYPO3\Flow\Security\Aspect\RequestDispatchingAspect_Original::blockIllegalRequestsAndForwardToAuthenticationEntryPoints(TYPO3\Flow\Aop\JoinPoint)
+11 TYPO3\Flow\Aop\Advice\AroundAdvice::invoke(TYPO3\Flow\Aop\JoinPoint)
+10 TYPO3\Flow\Aop\Advice\AdviceChain::proceed(TYPO3\Flow\Aop\JoinPoint)
+9 TYPO3\Flow\Mvc\Dispatcher::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+8 call_user_func_array(array|2|, array|2|)
+7 TYPO3\Flow\Object\DependencyInjection\DependencyProxy::__call("dispatch", array|2|)
+6 TYPO3\Flow\Object\DependencyInjection\DependencyProxy::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+5 TYPO3\Flow\Mvc\DispatchComponent_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+4 TYPO3\Flow\Http\Component\ComponentChain_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+3 TYPO3\Flow\Http\Component\ComponentChain_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+2 TYPO3\Flow\Http\RequestHandler::handleRequest()
+1 TYPO3\Flow\Core\Bootstrap::run()
+
+HTTP REQUEST:
+POST /we.news/user/create HTTP/1.1
+Host: flow.bunthon.local
+Connection: keep-alive
+Content-Length: 656
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://flow.bunthon.local
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://flow.bunthon.local/we.news/user/new
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.8
+Cache-Control: max-age=0
+
+__referrer%5B%40package%5D=WE.News&__referrer%5B%40subpackage%5D=&__referrer%5B%40controller%5D=User&__referrer%5B%40action%5D=new&__referrer%5Barguments%5D=YTowOnt99c160d95ce505b3a26d5646c5ae272ad7ce8eef7&__trustedProperties=a%3A6%3A%7Bs%3A5%3A%22roles%22%3Bi%3A1%3Bs%3A10%3A%22identifier%22%3Bi%3A1%3Bs%3A8%3A%22password%22%3Ba%3A2%3A%7Bi%3A0%3Bi%3A1%3Bi%3A1%3Bi%3A1%3B%7Ds%3A5%3A%22email%22%3Bi%3A1%3Bs%3A9%3A%22firstName%22%3Bi%3A1%3Bs%3A8%3A%22lastName%22%3Bi%3A1%3B%7Dcd34d5f0cf326b4697e8f2b64c6999e94e327d44&roles=Anonymous&identifier=bunthon&password%5B0%5D=123&password%5B1%5D=111&email=bunthon%40web-essentials.asia&firstName=Mao&lastName=Bunthon
+
+HTTP RESPONSE:
+<html><head><meta http-equiv="refresh" content="0;url=http://flow.bunthon.local/we.news/user/show?account%5B__identity%5D=85d6f8e5-d877-9009-d8ab-e082b0d512ea"/></head></html>

@@ -1,0 +1,31 @@
+<f:layout name="AdminLayout" />
+
+<f:section name="Title">New news</f:section>
+
+<f:section name="Content">
+	<div class="col-md-offset-2 col-md-8">
+		<p>Just fill out the following form to post a new news:</p>
+		<f:form action="create" objectName="newNews">
+			<label for="name">Title</label>
+			<f:form.textfield property="title" id="name" class="form-control" />
+			<label for="name">Image</label>
+			<f:form.textfield property="image" id="name" class="form-control" />
+			<label for="name">content</label>
+			<f:form.textarea property="content" id="name" class="form-control" />
+			<label for="category">Category:</label><br>
+
+			<f:for each="{listCategories}" as="category">
+				<label>{category.name}</label>
+				<f:form.checkbox property="categories" id="category" value="{category.identity}" multiple="true"/>
+				<br>
+			</f:for>
+			<br>
+			<label for="name">Status</label>
+			<f:form.checkbox value="1" property="status" />
+
+			<f:form.hidden value="{f:format.date(date: 'now', format: 'Y-m-d\TH:i:sP')}" property="date" id="date" />
+			<br>
+			<f:form.submit value="Create" class="btn btn-success" />
+		</f:form>
+	</div>
+</f:section>

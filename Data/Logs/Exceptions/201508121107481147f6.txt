@@ -1,0 +1,112 @@
+Uncaught exception #1355480641 in line 251 of /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Scripts.php: 
+Uncaught Exception: Doctrine\Common\Annotations\AnnotationException
+
+Message
+  [Syntax Error] Expected PlainValue, got ''' at position 103 in property
+  WE\News\Domain\Model\News::$user.
+
+More Information
+  File           Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php line 42
+
+Stack trace
+
+#0 Doctrine\Common\Annotations\AnnotationException::syntaxError()
+   /var/www/html/news/Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:424
+
+#1 Doctrine\Common\Annotations\DocParser::syntaxError()
+   /var/www/html/news/Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:1040
+
+#2 Doctrine\Common\Annotations\DocParser::PlainValue()
+   /var/www/html/news/Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:1059
+
+#3 Doctrine\Common\Annotations\DocParser::FieldAssignment()
+   /var/www/html/news/Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:989
+
+#4 Doctrine\Common\Annotations\DocParser::Value()
+   /var/www/html/news/Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:848
+
+#5 Doctrine\Common\Annotations\DocParser::Values()
+   /var/www/html/news/Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:833
+
+#6 Doctrine\Common\Annotations\DocParser::MethodCall()
+   /var/www/html/news/Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:744
+
+#7 Doctrine\Common\Annotations\DocParser::Annotation()
+   /var/www/html/news/Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:641
+
+#8 Doctrine\Common\Annotations\DocParser::Annotations()
+   /var/www/html/news/Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:334
+
+#9 Doctrine\Common\Annotations\DocParser::parse()
+   /var/www/html/news/Packages/Libraries/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php:226
+
+#10 Doctrine\Common\Annotations\AnnotationReader::getPropertyAnnotations()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Reflection/ReflectionService.php:1325
+
+#11 TYPO3\Flow\Reflection\ReflectionService::reflectClass()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Reflection/ReflectionService.php:1233
+
+#12 TYPO3\Flow\Reflection\ReflectionService::reflectEmergedClasses()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Reflection/ReflectionService.php:356
+
+#13 TYPO3\Flow\Reflection\ReflectionService::buildReflectionData()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Object/CompileTimeObjectManager.php:113
+
+#14 TYPO3\Flow\Object\CompileTimeObjectManager::initialize()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Scripts.php:326
+
+#15 TYPO3\Flow\Core\Booting\Scripts::initializeObjectManagerCompileTimeFinalize()
+
+#16 ::call_user_func()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Step.php:49
+
+#17 TYPO3\Flow\Core\Booting\Step::__invoke()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Sequence.php:101
+
+#18 TYPO3\Flow\Core\Booting\Sequence::invokeStep()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Sequence.php:105
+
+#19 TYPO3\Flow\Core\Booting\Sequence::invokeStep()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Sequence.php:105
+
+#20 TYPO3\Flow\Core\Booting\Sequence::invokeStep()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Sequence.php:105
+
+#21 TYPO3\Flow\Core\Booting\Sequence::invokeStep()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Sequence.php:105
+
+#22 TYPO3\Flow\Core\Booting\Sequence::invokeStep()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Sequence.php:105
+
+#23 TYPO3\Flow\Core\Booting\Sequence::invokeStep()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Sequence.php:105
+
+#24 TYPO3\Flow\Core\Booting\Sequence::invokeStep()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Booting/Sequence.php:85
+
+#25 TYPO3\Flow\Core\Booting\Sequence::invoke()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Cli/CommandRequestHandler.php:153
+
+#26 TYPO3\Flow\Cli\CommandRequestHandler::boot()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Cli/CommandRequestHandler.php:89
+
+#27 TYPO3\Flow\Cli\CommandRequestHandler::handleRequest()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core/Bootstrap.php:108
+
+#28 TYPO3\Flow\Core\Bootstrap::run()
+   /var/www/html/news/Packages/Framework/TYPO3.Flow/Scripts/flow.php:55
+
+
+13 TYPO3\Flow\Core\Booting\Scripts::executeCommand("typo3.flow:core:compile", array|16|)
+12 TYPO3\Flow\Core\Booting\Scripts::initializeProxyClasses(TYPO3\Flow\Core\Bootstrap)
+11 call_user_func(array|2|, TYPO3\Flow\Core\Bootstrap)
+10 TYPO3\Flow\Core\Booting\Step::__invoke(TYPO3\Flow\Core\Bootstrap)
+9 TYPO3\Flow\Core\Booting\Sequence::invokeStep(TYPO3\Flow\Core\Booting\Step, TYPO3\Flow\Core\Bootstrap)
+8 TYPO3\Flow\Core\Booting\Sequence::invokeStep(TYPO3\Flow\Core\Booting\Step, TYPO3\Flow\Core\Bootstrap)
+7 TYPO3\Flow\Core\Booting\Sequence::invokeStep(TYPO3\Flow\Core\Booting\Step, TYPO3\Flow\Core\Bootstrap)
+6 TYPO3\Flow\Core\Booting\Sequence::invokeStep(TYPO3\Flow\Core\Booting\Step, TYPO3\Flow\Core\Bootstrap)
+5 TYPO3\Flow\Core\Booting\Sequence::invoke(TYPO3\Flow\Core\Bootstrap)
+4 TYPO3\Flow\Cli\CommandRequestHandler::boot("Runtime")
+3 TYPO3\Flow\Cli\CommandRequestHandler::handleRequest()
+2 TYPO3\Flow\Core\Bootstrap::run()
+1 require("/var/www/html/news/Packages/Framework/TYPO3.Flow/Scripts/flow.php")

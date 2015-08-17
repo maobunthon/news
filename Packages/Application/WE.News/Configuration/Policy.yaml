@@ -1,0 +1,38 @@
+#                                                                        #
+# Security policy definition                                             #
+#                                                                        #
+# This file contains the security policy configuration for the           #
+# News package                                                           #
+
+resources:
+  methods:
+    WE_News_CategoryUserMethods: 'method(WE\News\Controller\CategoryController->(show|index)Action())'
+    WE_News_NewsUserMethods: 'method(WE\News\Controller\NewsController->(show|index)Action())'
+
+    WE_News_CategoryEditorMethods: 'method(WE\News\Controller\CategoryController->(new|create|edit|update)Action())'
+    WE_News_NewsEditorMethods: 'method(WE\News\Controller\NewsController->(edit|update)Action())'
+
+    WE_News_CategoryAdminMethods: 'method(WE\News\Controller\CategoryController->deleteAction())'
+    WE_News_NewsAdminMethods: 'method(WE\News\Controller\NewsController->deleteAction())'
+
+
+roles:
+  User: []
+  Editor: [User]
+  Admin: [Editor]
+
+
+acls:
+  User:
+    methods:
+      WE_News_CategoryUserMethods: GRANT
+      WE_News_NewsUserMethods: GRANT
+  Editor:
+    methods:
+      WE_News_CategoryEditorMethods: GRANT
+      WE_News_NewsEditorMethods: GRANT
+  Admin:
+    methods:
+      WE_News_CategoryAdminMethods: GRANT
+      WE_News_NewsAdminMethods: GRANT
+

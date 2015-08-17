@@ -1,0 +1,31 @@
+<fieldset class="fieldset">
+	<legend>Personal Data</legend>
+
+	<div class="form-group">
+		<label class="control-label col-sm-3">Title <span class="require"> * </span></label>
+		<div class="col-sm-5">
+			<f:form.textfield property="party.name.title" id="title" class="form-control" required="true" placeholder="Title"/>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-3 control-label" for="firstName">First Name <span class="require"> * </span></label>
+		<div class="col-sm-5">
+			<f:form.textfield property="party.name.firstName" id="firstName" class="form-control" required="true" placeholder="First Name"/>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="control-label col-sm-3">Middle Name</label>
+		<div class="col-sm-5">
+			<f:form.textfield property="party.name.middleName" id="middleName" class="form-control" required="true" placeholder="Middle Name"/>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-3 control-label" for="firstName">Last Name <span class="require"> * </span></label>
+		<div class="col-sm-5">
+			<f:form.textfield property="party.name.lastName" id="lastName" class="form-control" required="true" placeholder="First Name"/>
+		</div>
+	</div>
+</fieldset>

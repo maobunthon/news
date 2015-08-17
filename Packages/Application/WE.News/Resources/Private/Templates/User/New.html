@@ -1,0 +1,19 @@
+<f:layout name="Default" />
+
+<f:section name="Title">Creat a new account</f:section>
+<f:section name="PageTitle">Creat a new account</f:section>
+
+<f:section name="Content">
+	<f:form action="create" name="User" class="form-horizontal">
+		<f:render partial="FlashMessages" />
+		<f:render partial="ValidationMessages" />
+		<f:render partial="Account/Register" arguments="{_all}" />
+
+		<div class="form-group">
+			<div class="col-sm-offset-3 col-sm-5">
+				<f:link.action class="btn btn-default" action="index">Cancel</f:link.action>
+				<button type="submit" class="btn btn-primary"> Create Account </button>
+			</div>
+		</div>
+	</f:form>
+</f:section>

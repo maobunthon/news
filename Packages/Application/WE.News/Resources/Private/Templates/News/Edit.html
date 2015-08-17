@@ -1,0 +1,31 @@
+{namespace te=WE\News\ViewHelpers}
+<f:layout name="AdminLayout" />
+
+<f:section name="Title">Edit news "{news.name}"</f:section>
+
+<f:section name="Content">
+	<f:form action="update" object="{news}" objectName="news">
+		<div class="col-md-offset-2 col-md-8">
+			<p>Just fill out the following form to post a new news:</p>
+
+				<label for="name">Title</label>
+				<f:form.textfield property="title" id="name" class="form-control" />
+				<label for="name">Image</label>
+				<f:form.textfield property="image" id="name" class="form-control" />
+				<label for="name">content</label>
+				<f:form.textarea property="content" id="name" class="form-control" />
+				<label for="name">Status</label>
+				<f:form.checkbox value="1" checked="{news.status} == 1" property="status" />
+
+				<label>Category</label><br>
+				<f:for each="{listCategories}" as="category">
+					<f:form.checkbox property="categories" checked="<te:getCategoryInNews news='{news}' category='{category}'/>" id="category" value="{category.identity}" multiple="true"/><label>{category.name}</label><br>
+				</f:for>
+
+				<f:form.hidden value="{f:format.date(date: 'now', format: 'Y-m-d\TH:i:sP')}" property="date" id="date" />
+				<br>
+				<f:form.submit value="Update" class="btn btn-success" />
+
+		</div>
+	</f:form>
+</f:section>

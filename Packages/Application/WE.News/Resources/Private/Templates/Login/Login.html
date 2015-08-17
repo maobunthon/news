@@ -1,0 +1,43 @@
+<f:layout name="AdminLayout" />
+
+<f:section name="Title">Login</f:section>
+
+<f:section name="Content">
+
+	<f:render partial="FlashMessages"/>
+
+	<f:security.ifAuthenticated>
+		<f:then>
+			<f:form action="logout" method="post">
+				You login as "{user.name.firstName} {user.name.lastName}"
+				<br>
+				<input type="submit" value="Logout" tabindex="3" />
+			</f:form>
+		</f:then>
+		<f:else>
+            <div class="col-md-offset-4 col-md-4">
+                <f:form action="authenticate" method="post" name="loginform">
+                    <h2 class="form-signin-heading">Please login</h2>
+                    <div class="row">
+                        <label for="username">Username</label>
+                        <input type="logintext" id="username" class="form-control"
+                               name="__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]"
+                               value="" tabindex="1" />
+                    </div>
+                    <div class="row">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" class="form-control"
+                               name="__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]"
+                               value="" tabindex="2" />
+                    </div>
+                    <div class="row">
+                        <f:link.action action="new" controller="User">Register</f:link.action>
+                        <input type="submit" value="Login" tabindex="3" />
+                    </div>
+                </f:form>
+            </div>
+            <div style="clear: both"></div>
+		</f:else>
+	</f:security.ifAuthenticated>
+
+</f:section>

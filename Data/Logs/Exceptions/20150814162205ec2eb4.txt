@@ -1,0 +1,53 @@
+Uncaught exception #1 in line 216 of /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Flow_Persistence_Doctrine_PersistenceManager.php: Warning: Illegal offset type in isset or empty in /var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Flow_Persistence_Doctrine_PersistenceManager.php line 216
+
+35 TYPO3\Flow\Error\ErrorHandler::handleError(2, "Illegal offset type in isset or empty", "/var/www/html/news/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/TYPO3_Flow_Persistence_Doctrine_PersistenceManager.php", 216, array|3|)
+34 TYPO3\Flow\Persistence\Doctrine\PersistenceManager_Original::getObjectByIdentifier(WE\News\Domain\Model\News, "WE\News\Domain\Model\News", FALSE)
+33 TYPO3\Flow\Persistence\Doctrine\PersistenceManager::getObjectByIdentifier(WE\News\Domain\Model\News, "WE\News\Domain\Model\News", FALSE)
+32 call_user_func_array(array|2|, array|3|)
+31 TYPO3\Flow\Persistence\Doctrine\PersistenceManager::Flow_Aop_Proxy_invokeJoinPoint(TYPO3\Flow\Aop\JoinPoint)
+30 TYPO3\Flow\Aop\Advice\AdviceChain::proceed(TYPO3\Flow\Aop\JoinPoint)
+29 TYPO3\Flow\Security\Aspect\PersistenceQueryRewritingAspect_Original::checkAccessAfterFetchingAnObjectByIdentifier(TYPO3\Flow\Aop\JoinPoint)
+28 TYPO3\Flow\Aop\Advice\AroundAdvice::invoke(TYPO3\Flow\Aop\JoinPoint)
+27 TYPO3\Flow\Aop\Advice\AdviceChain::proceed(TYPO3\Flow\Aop\JoinPoint)
+26 TYPO3\Flow\Persistence\Doctrine\PersistenceManager::getObjectByIdentifier(WE\News\Domain\Model\News, "WE\News\Domain\Model\News")
+25 TYPO3\Flow\Persistence\Repository::findByIdentifier(WE\News\Domain\Model\News)
+24 call_user_func_array(array|2|, array|1|)
+23 TYPO3\Flow\Object\DependencyInjection\DependencyProxy::__call("findByIdentifier", array|1|)
+22 TYPO3\Flow\Object\DependencyInjection\DependencyProxy::findByIdentifier(WE\News\Domain\Model\News)
+21 WE\News\Controller\HomeController_Original::detailAction(WE\News\Domain\Model\News)
+20 call_user_func_array(array|2|, array|1|)
+19 TYPO3\Flow\Mvc\Controller\ActionController_Original::callActionMethod()
+18 TYPO3\Flow\Mvc\Controller\ActionController_Original::processRequest(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+17 TYPO3\Flow\Mvc\Dispatcher_Original::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+16 TYPO3\Flow\Mvc\Dispatcher::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+15 call_user_func_array(array|2|, array|2|)
+14 TYPO3\Flow\Mvc\Dispatcher::Flow_Aop_Proxy_invokeJoinPoint(TYPO3\Flow\Aop\JoinPoint)
+13 TYPO3\Flow\Aop\Advice\AdviceChain::proceed(TYPO3\Flow\Aop\JoinPoint)
+12 TYPO3\Flow\Security\Aspect\RequestDispatchingAspect_Original::blockIllegalRequestsAndForwardToAuthenticationEntryPoints(TYPO3\Flow\Aop\JoinPoint)
+11 TYPO3\Flow\Aop\Advice\AroundAdvice::invoke(TYPO3\Flow\Aop\JoinPoint)
+10 TYPO3\Flow\Aop\Advice\AdviceChain::proceed(TYPO3\Flow\Aop\JoinPoint)
+9 TYPO3\Flow\Mvc\Dispatcher::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+8 call_user_func_array(array|2|, array|2|)
+7 TYPO3\Flow\Object\DependencyInjection\DependencyProxy::__call("dispatch", array|2|)
+6 TYPO3\Flow\Object\DependencyInjection\DependencyProxy::dispatch(TYPO3\Flow\Mvc\ActionRequest, TYPO3\Flow\Http\Response)
+5 TYPO3\Flow\Mvc\DispatchComponent_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+4 TYPO3\Flow\Http\Component\ComponentChain_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+3 TYPO3\Flow\Http\Component\ComponentChain_Original::handle(TYPO3\Flow\Http\Component\ComponentContext)
+2 TYPO3\Flow\Http\RequestHandler::handleRequest()
+1 TYPO3\Flow\Core\Bootstrap::run()
+
+HTTP REQUEST:
+GET /we.news/home/detail?news=37e87020-adb9-8c70-5cb9-5f0376acaedd HTTP/1.1
+Host: flow.bunthon.local
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36
+Referer: http://flow.bunthon.local/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+
+
+
+HTTP RESPONSE:
+[response was empty]

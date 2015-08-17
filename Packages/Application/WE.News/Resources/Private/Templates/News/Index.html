@@ -1,0 +1,52 @@
+<f:layout name="AdminLayout" />
+
+<f:section name="Title">A list of news</f:section>
+
+<f:section name="Content">
+	<div class="row">
+		<div class="col-md-offset-2 col-md-8">
+			<table class="table">
+				<thead>
+				<tr>
+					<th width="400px">Title</th>
+					<th width="150px">By</th>
+					<th width="150px">On</th>
+					<th width="50px">Status</th>
+					<th colspan="2" class="text-center">Action</th>
+				</tr>
+				</thead>
+				<tbody>
+				<f:if condition="{newsList}">
+					<f:then>
+						<f:for each="{newsList}" as="news">
+							<tr>
+								<td><f:link.action action="show" arguments="{news: news}">{news.title}</f:link.action></td>
+								<td><f:link.action action="show" arguments="{news: news}">{news.user.name}</f:link.action></td>
+								<td><f:link.action action="show" arguments="{news: news}">{news.date -> f:format.date(format: 'Y-m-d H:i')}</f:link.action></td>
+								<td><f:link.action action="show" arguments="{news: news}">{news.status}</f:link.action></td>
+								<td><f:link.action action="edit" arguments="{news: news}">Edit</f:link.action></td>
+								<td>
+									<f:form action="delete" arguments="{news: news}">
+										<f:form.submit value="Delete" />
+									</f:form>
+								</td>
+							</tr>
+						</f:for>
+					</f:then>
+					<f:else>
+						<tr>
+							<td colspan="5" class="text-center">No news created yet.</td>
+						</tr>
+					</f:else>
+				</f:if>
+
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-2">
+
+		</div>
+	</div>
+
+	<p><f:link.action action="new">Create a new news</f:link.action></p>
+</f:section>

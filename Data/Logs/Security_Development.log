@@ -1,0 +1,646 @@
+15-08-12 14:31:24 12520      127.0.0.1      INFO      Flow                 Session ZrjZCfK1noTqPtlednHTnef8r3DyLMjC contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-12 14:31:48 8048       127.0.0.1      INFO      Flow                 Session ZrjZCfK1noTqPtlednHTnef8r3DyLMjC contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-12 14:38:18 8051       127.0.0.1      INFO      Flow                 Session ZrjZCfK1noTqPtlednHTnef8r3DyLMjC contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-12 14:38:48 8049       127.0.0.1      INFO      Flow                 Session ZrjZCfK1noTqPtlednHTnef8r3DyLMjC contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-12 14:51:55 13455      127.0.0.1      INFO      Flow                 Access denied (0 denied, 0 granted, 1 abstained) to method WE\News\Controller\NewsController::indexAction().
+15-08-12 14:51:55 13455      127.0.0.1      INFO      Flow                 Redirecting to authentication entry point
+    uri => login
+
+15-08-12 14:51:55 13455      127.0.0.1      INFO      Flow                 Session Q74fBChbmybj02y4Rjimy9mImf6h59zB contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-12 14:52:05 13150      127.0.0.1      INFO      Flow                 Session Q74fBChbmybj02y4Rjimy9mImf6h59zB contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-12 14:52:06 13150      127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-12 14:52:06 13150      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 14:52:06 13150      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 14:53:33 14120      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 14:53:33 14120      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 14:53:38 14120      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 14:53:38 14120      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 14:53:46 14120      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 14:53:46 14120      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 14:54:42 13442      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 14:54:42 13442      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 14:55:07 14120      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 14:55:07 14120      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 14:57:18 8048       127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 14:57:18 8048       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 14:57:20 8048       127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 14:57:20 8048       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 14:57:22 8048       127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 14:57:22 8048       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:02:32 13455      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:02:32 13455      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:08:19 8051       127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:08:19 8051       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:08:36 13418      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:08:36 13418      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:08:44 14209      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:08:44 14209      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:09:14 13455      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:09:14 13455      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:09:29 8051       127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:09:29 8051       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:10:05 13455      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:10:05 13455      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:10:47 13418      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:10:47 13418      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:11:06 13455      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:11:06 13455      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:11:35 14209      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:11:35 14209      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:11:40 13823      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:11:40 13823      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:11:55 14209      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:11:55 14209      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:12:07 13823      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:12:07 13823      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:12:21 14209      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:12:21 14209      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:12:40 13823      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:12:40 13823      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:12:50 14472      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:12:50 14472      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:13:07 13823      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:13:07 13823      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:16:55 14472      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:16:55 14472      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:17:32 14489      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:17:32 14489      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:17:45 14472      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:17:45 14472      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:17:50 14472      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:17:50 14472      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:17:53 14472      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:17:53 14472      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:17:59 14489      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:17:59 14489      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:18:06 14529      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:18:06 14529      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:22:30 13418      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:22:30 13418      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:31:49 14489      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:31:49 14489      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:31:58 14532      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:31:58 14532      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:33:31 14456      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:33:31 14456      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:34:15 18062      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:34:15 18062      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:34:53 14532      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:34:53 14532      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:35:11 14489      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:35:11 14489      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 15:35:11 14489      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 15:35:11 14489      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:04:35 14529      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:04:35 14529      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:04:49 14534      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:04:49 14534      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:04:58 13418      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:04:58 13418      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:05:09 14489      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:05:09 14489      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:05:13 18596      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:05:13 18596      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:05:21 14581      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:05:21 14581      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:05:39 14529      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:05:39 14529      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:17:15 18596      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:17:15 18596      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:17:32 14581      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:17:32 14581      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:19:21 13823      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:19:21 13823      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:19:24 18102      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:19:24 18102      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:19:35 14489      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:19:35 14489      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:19:51 14456      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:19:51 14456      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:20:13 14581      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:20:13 14581      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:20:32 19039      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:20:32 19039      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:23:58 18596      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:23:58 18596      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:24:09 19055      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:24:09 19055      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:31:20 19106      127.0.0.1      INFO      Flow                 Session xwvcFECk3sAXUmXQudArDrhDz0hhQAFd contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:31:20 19106      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:31:20 19106      127.0.0.1      INFO      Flow                 Logged out 0 account(s). ()
+15-08-12 16:31:24 19106      127.0.0.1      INFO      Flow                 Access denied (0 denied, 0 granted, 1 abstained) to method WE\News\Controller\NewsController::indexAction().
+15-08-12 16:31:24 19106      127.0.0.1      INFO      Flow                 Redirecting to authentication entry point
+    uri => login
+
+15-08-12 16:31:24 19106      127.0.0.1      INFO      Flow                 Session nDTRYFMX79G4Op9cfmD5bXAxYWfajC14 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-12 16:31:24 19106      127.0.0.1      INFO      Flow                 Access denied (0 denied, 0 granted, 1 abstained) to method WE\News\Controller\NewsController::indexAction().
+15-08-12 16:31:24 19106      127.0.0.1      INFO      Flow                 Redirecting to authentication entry point
+    uri => login
+
+15-08-12 16:31:24 19106      127.0.0.1      INFO      Flow                 Session nDTRYFMX79G4Op9cfmD5bXAxYWfajC14 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-12 16:31:33 18102      127.0.0.1      INFO      Flow                 Session nDTRYFMX79G4Op9cfmD5bXAxYWfajC14 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-12 16:31:34 18102      127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-12 16:31:34 18102      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:31:34 18102      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:41:58 14489      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:41:58 14489      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:42:00 19106      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:42:00 19106      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:42:07 19046      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:42:07 19046      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:42:15 19062      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:42:15 19062      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:42:51 14581      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:42:51 14581      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:42:59 19055      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:42:59 19055      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:43:58 14534      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:43:58 14534      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:44:00 14534      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:44:00 14534      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:44:02 14534      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:44:02 14534      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:44:16 19106      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:44:16 19106      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:44:51 19046      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:44:51 19046      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:44:58 14534      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:44:58 14534      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:44:58 14534      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:44:58 14534      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:46:42 18092      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:46:42 18092      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:46:46 19106      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:46:46 19106      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:46:53 19046      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:46:53 19046      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:46:53 19046      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:46:53 19046      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:52:15 14534      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:52:15 14534      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:52:22 18092      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:52:22 18092      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:53:53 19580      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:53:53 19580      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:54:03 19046      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:54:03 19046      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:54:03 19046      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:54:03 19046      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:54:06 19046      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:54:06 19046      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 16:54:06 19046      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 16:54:06 19046      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:03:58 14534      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:03:58 14534      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:04:57 19580      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:04:57 19580      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:06:21 19062      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:06:21 19062      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:14 18102      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:14 18102      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:33 19549      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:33 19549      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:33 19549      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:33 19549      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:40 18092      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:40 18092      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:43 18092      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:43 18092      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:43 18092      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:43 18092      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:45 18092      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:45 18092      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:48 18092      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:48 18092      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:48 18092      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:48 18092      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:52 18092      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:52 18092      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:12:59 19062      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:12:59 19062      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:13:00 19062      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:13:00 19062      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:13:02 19062      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:13:02 19062      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:13:17 20152      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:13:17 20152      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-12 17:13:17 20152      127.0.0.1      INFO      Flow                 Session FPVcbCssRPNITbhZfQjb0h9eh3SMwDeN contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-12 17:13:17 20152      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:07:15 3474       127.0.0.1      INFO      Flow                 Access denied (0 denied, 0 granted, 1 abstained) to method WE\News\Controller\NewsController::indexAction().
+15-08-13 08:07:15 3474       127.0.0.1      INFO      Flow                 Redirecting to authentication entry point
+    uri => login
+
+15-08-13 08:07:15 3474       127.0.0.1      INFO      Flow                 Session a2zIg4f19jdoghcpnSJ37ByoJW5i4ndB contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-13 08:07:20 3474       127.0.0.1      INFO      Flow                 Session a2zIg4f19jdoghcpnSJ37ByoJW5i4ndB contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-13 08:07:21 3474       127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-13 08:07:21 3474       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:07:21 3474       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:08:01 3477       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:08:01 3477       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:08:07 3672       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:08:07 3672       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:08:07 3672       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:08:07 3672       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:10:00 3474       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:10:00 3474       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:12:49 3475       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:12:50 3475       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:15:18 3478       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:15:18 3478       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:16:18 3476       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:16:18 3476       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:16:29 3808       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:16:29 3808       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:25:48 3474       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:25:48 3474       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:26:08 3870       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:26:08 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:32:40 3904       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:32:40 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:32:57 3870       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:32:57 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:45:06 3474       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:45:06 3474       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:45:15 3810       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:45:15 3810       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:46:14 3475       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:46:14 3475       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:46:19 3475       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:46:19 3475       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:46:26 3870       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:46:26 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:52:03 4216       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:52:03 4216       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:52:14 3476       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:52:14 3476       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:52:14 3476       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:52:14 3476       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:52:19 3808       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:52:19 3808       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:52:28 3870       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:52:28 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:53:02 4622       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:53:02 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:54:12 4511       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:54:12 4511       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:54:13 4511       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:54:13 4511       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 08:56:21 3808       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 08:56:21 3808       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:04:36 3870       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:04:36 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:05:51 4622       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:05:51 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:05:55 4652       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:05:55 4652       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:05:57 3810       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:05:57 3810       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:06:56 3808       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:06:56 3808       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:07:21 3870       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:07:21 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:07:30 4622       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:07:30 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:08:19 4652       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:08:19 4652       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:13:24 4622       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:13:24 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:16:34 3904       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:16:34 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:16:42 4622       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:16:42 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:18:05 3870       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:18:05 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:18:21 3475       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:18:21 3475       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:26:24 3904       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:26:24 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:27:07 5034       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:27:07 5034       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:27:07 5034       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:27:07 5034       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:27:10 5034       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:27:10 5034       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:27:12 5034       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:27:12 5034       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:27:12 5034       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:27:12 5034       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:27:15 5034       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:27:15 5034       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:27:17 5034       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:27:17 5034       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:27:18 5034       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:27:18 5034       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:28:49 5002       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:28:49 5002       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:41:42 4958       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:41:42 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:42:04 3904       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:42:04 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:42:07 3904       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:42:07 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:42:13 3810       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:42:13 3810       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:42:13 3810       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:42:13 3810       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:42:15 3810       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:42:15 3810       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:42:18 3810       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:42:18 3810       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:42:18 3810       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:42:18 3810       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:42:19 3810       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:42:19 3810       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:42:21 3810       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:42:21 3810       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 09:42:22 3810       127.0.0.1      INFO      Flow                 Session dcL8p1T9QeRqRzWYSuYTJTLPeHyvAuc3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 09:42:22 3810       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 10:49:41 5038       127.0.0.1      INFO      Flow                 Access denied (0 denied, 0 granted, 1 abstained) to method WE\News\Controller\NewsController::indexAction().
+15-08-13 10:49:41 5038       127.0.0.1      INFO      Flow                 Redirecting to authentication entry point
+    uri => login
+
+15-08-13 10:49:41 5038       127.0.0.1      INFO      Flow                 Session hixPwgkSf1qYeSlk029WjYtCybACxrHk contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-13 10:49:46 3870       127.0.0.1      INFO      Flow                 Session hixPwgkSf1qYeSlk029WjYtCybACxrHk contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-13 10:49:47 3870       127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-13 10:49:47 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 10:49:47 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 10:49:56 4622       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 10:49:56 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 10:50:12 4856       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 10:50:12 4856       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 10:50:43 5038       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 10:50:43 5038       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 10:57:45 4856       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 10:57:45 4856       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:01:45 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:01:45 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:01:51 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:01:51 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:06:38 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:06:38 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:08:12 4856       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:08:12 4856       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:08:17 6448       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:08:17 6448       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:08:52 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:08:52 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:14:16 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:14:16 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:15:09 6640       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:15:09 6640       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:16:04 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:16:04 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:16:14 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:16:14 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:16:23 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:16:23 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:19:00 6640       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:19:00 6640       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:19:08 6808       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:19:08 6808       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:19:11 6808       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:19:11 6808       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:19:19 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:19:19 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:19:19 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:19:19 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:18 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:18 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:18 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:18 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:19 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:19 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:19 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:19 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:19 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:19 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:19 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:19 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:20 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:20 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:20 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:20 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:21 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:21 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:49 6640       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:49 6640       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:22:49 6640       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:22:49 6640       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:23:24 6876       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:23:24 6876       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:33:47 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:33:47 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:35:45 4622       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:35:45 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:37:06 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:37:06 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:37:33 6876       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:37:33 6876       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:37:44 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:37:44 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:37:44 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:37:44 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:37:46 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:37:46 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:38:48 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:38:48 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:39:21 7124       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:39:21 7124       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:39:23 7124       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:39:23 7124       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:39:28 7124       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:39:28 7124       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:39:28 7124       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:39:28 7124       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:40:16 6876       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:40:16 6876       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:40:23 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:40:23 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:42:39 7145       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:42:39 7145       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:42:39 7145       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:42:39 7145       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:44:37 7124       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:44:37 7124       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:44:40 7130       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:44:40 7130       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:44:46 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:44:46 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:44:46 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:44:46 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:44:49 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:44:49 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:12 4622       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:12 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:13 6876       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:13 6876       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:18 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:18 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:19 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:19 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:22 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:22 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:25 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:25 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:25 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:25 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:28 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:28 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:31 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:31 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:31 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:31 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:36 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:36 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:40 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:40 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:40 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:40 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:41 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:41 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:44 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:44 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:44 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:44 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:46 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:46 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:47 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:47 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:46:47 6453       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:46:47 6453       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:54:22 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:54:22 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:54:23 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:54:23 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:55:12 4958       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:55:12 4958       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:55:19 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:55:19 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:55:20 3904       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:55:20 3904       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:55:54 3870       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:55:54 3870       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:55:57 7220       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:55:57 7220       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:55:59 7220       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:56:02 7220       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:56:02 7220       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:56:05 7220       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:56:05 7220       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:56:08 7220       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:56:08 7220       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:56:08 7220       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:56:08 7220       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:56:21 6876       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:56:21 6876       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:58:16 4622       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:58:16 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:58:38 7124       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:58:38 7124       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:59:34 4622       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:59:34 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 11:59:35 4622       127.0.0.1      INFO      Flow                 Session eBtTJLIResoqm7L2jfe8FwiFTe3Pv3Gt contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 11:59:35 4622       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 13:52:12 7505       127.0.0.1      INFO      Flow                 Access denied (0 denied, 0 granted, 1 abstained) to method WE\News\Controller\NewsController::indexAction().
+15-08-13 13:52:12 7505       127.0.0.1      INFO      Flow                 Redirecting to authentication entry point
+    uri => login
+
+15-08-13 13:52:12 7505       127.0.0.1      INFO      Flow                 Session fjShUmMCgkedUpxTDH7ChzShgBPm6zIp contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-13 13:52:18 7124       127.0.0.1      INFO      Flow                 Session fjShUmMCgkedUpxTDH7ChzShgBPm6zIp contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-13 13:52:19 7124       127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-13 13:52:19 7124       127.0.0.1      INFO      Flow                 Session jvgB4sf9VpdkcKr2LiIC2ofLRw3cg1gD contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 13:52:19 7124       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-13 14:50:03 7505       127.0.0.1      INFO      Flow                 Session jvgB4sf9VpdkcKr2LiIC2ofLRw3cg1gD contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-13 14:50:03 7505       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 10:24:02 8123       127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-14 10:24:02 8123       127.0.0.1      INFO      Flow                 Session E8LcFgIcyqXy1RpOmlcDNVpOhdtHqrTf contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 10:24:02 8123       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 10:32:48 8125       127.0.0.1      INFO      Flow                 Session E8LcFgIcyqXy1RpOmlcDNVpOhdtHqrTf contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 10:32:48 8125       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 11:08:29 8126       127.0.0.1      INFO      Flow                 Access denied (0 denied, 0 granted, 1 abstained) to method WE\News\Controller\NewsController::editAction().
+15-08-14 11:08:29 8126       127.0.0.1      INFO      Flow                 Redirecting to authentication entry point
+    uri => login
+
+15-08-14 11:08:29 8126       127.0.0.1      INFO      Flow                 Session 1mqDbar18E4YaxVNLs93h3eQf2Np4k5u contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-14 11:08:37 8037       127.0.0.1      INFO      Flow                 Session 1mqDbar18E4YaxVNLs93h3eQf2Np4k5u contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: no credentials given
+15-08-14 11:08:38 8037       127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-14 11:08:38 8037       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:08:38 8037       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 11:09:04 8123       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:28:48 8125       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:31:17 8038       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:31:55 8083       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:33:48 8038       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:33:49 10424      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:33:50 10424      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:33:50 10424      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 11:36:56 8125       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:36:56 8125       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 11:37:09 8083       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:42:48 11932      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:43:15 8125       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:43:37 11932      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:44:45 10424      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:44:58 11932      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:45:20 8038       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:45:29 8123       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:46:01 11999      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:46:01 11999      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 11:46:03 11999      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:46:03 11999      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 11:46:20 11932      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:46:20 11932      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 11:46:20 11932      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:46:20 11932      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 11:46:29 8038       127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:54:14 12117      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:54:14 12117      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 11:54:18 12117      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 11:54:18 12117      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 11:55:32 10424      127.0.0.1      INFO      Flow                 Session OCzjWNcBLYTaGyZpStC4RSwgxCkU3Es3 contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:13:22 17895      127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-14 15:13:23 17895      127.0.0.1      INFO      Flow                 Session UGBzbG3dEuse6rMao5TyL101u9K58BCQ contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:13:23 17895      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 15:13:28 8123       127.0.0.1      INFO      Flow                 Session UGBzbG3dEuse6rMao5TyL101u9K58BCQ contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:13:30 8123       127.0.0.1      INFO      Flow                 Session UGBzbG3dEuse6rMao5TyL101u9K58BCQ contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:13:30 8123       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 15:14:13 17829      127.0.0.1      INFO      Flow                 Session UGBzbG3dEuse6rMao5TyL101u9K58BCQ contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:14:13 17829      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 15:14:13 17829      127.0.0.1      INFO      Flow                 Session UGBzbG3dEuse6rMao5TyL101u9K58BCQ contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:14:13 17829      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 15:14:23 17837      127.0.0.1      INFO      Flow                 Session UGBzbG3dEuse6rMao5TyL101u9K58BCQ contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:34:05 17837      127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-14 15:34:05 17837      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:34:05 17837      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-14 15:34:09 17837      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:34:15 11999      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:37:47 11932      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:37:53 17903      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:37:59 8123       127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:44:08 8123       127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:44:12 8083       127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:44:13 18804      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:44:14 17895      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:44:29 17900      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:45:33 8083       127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:46:01 17837      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:49:51 18804      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:51:37 17837      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:53:49 18804      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:53:53 18929      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:54:04 17903      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 15:58:57 17837      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 16:03:19 18903      127.0.0.1      INFO      Flow                 Session Ij7zDjdZMKacFfagf0XtlHGWA6gnU5DV contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 17:19:20 19806      127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-14 17:19:20 19806      127.0.0.1      INFO      Flow                 Session LPXY0Yb846BMjcPusit9eLeDCc7qHZSK contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-14 17:19:20 19806      127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-17 08:44:48 3759       127.0.0.1      NOTICE    TYPO3.Flow           Successfully authenticated token: Username: "bunthon"
+15-08-17 08:44:48 3759       127.0.0.1      INFO      Flow                 Session XQxbuoex7lhsUcBG4GMUwJStax9Ce9wk contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-17 08:44:48 3759       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-17 08:44:55 3655       127.0.0.1      INFO      Flow                 Session XQxbuoex7lhsUcBG4GMUwJStax9Ce9wk contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-17 08:44:55 3655       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-17 08:45:09 3752       127.0.0.1      INFO      Flow                 Session XQxbuoex7lhsUcBG4GMUwJStax9Ce9wk contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-17 08:45:11 3752       127.0.0.1      INFO      Flow                 Session XQxbuoex7lhsUcBG4GMUwJStax9Ce9wk contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-17 08:45:11 3752       127.0.0.1      INFO      Flow                 Successfully re-authenticated tokens for account "bunthon"
+15-08-17 09:10:47 3754       127.0.0.1      INFO      Flow                 Session XQxbuoex7lhsUcBG4GMUwJStax9Ce9wk contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful
+15-08-17 09:11:22 3758       127.0.0.1      INFO      Flow                 Session XQxbuoex7lhsUcBG4GMUwJStax9Ce9wk contains auth token TYPO3\Flow\Security\Authentication\Token\UsernamePassword for provider DefaultProvider. Status: authentication successful

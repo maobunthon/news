@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title><f:render section="Title" /></title>
+	<f:base />
+	<link href="{f:uri.resource(path: 'css/bootstrap.min.css', package: 'WE.News')}" rel="stylesheet">
+	<link href="{f:uri.resource(path: 'css/round-about.css', package: 'WE.News')}" rel="stylesheet">
+	<link href="{f:uri.resource(path: 'css/custom.css', package: 'WE.News')}" rel="stylesheet">
+	<link href="{f:uri.resource(path: 'css/font-awesome.min.css', package: 'WE.News')}" rel="stylesheet">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<nav class="navbar navbar-default navbar-fixed-top nav-custom">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">Ant Dev</a>
+	</div>
+	<div id="navbar" class="navbar-collapse collapse menu-custom">
+		<ul class="nav navbar-nav navbar-left">
+			<!--<li><f:link.action action="index" controller="blog" >Blog</f:link.action></li>-->
+		</ul>
+		<ul class="nav navbar-nav navbar-right" >
+			<f:security.ifAuthenticated>
+				<f:then>
+					<li><f:link.action class="small" action="logout" controller="Login">Logout</f:link.action></li>
+					<li><f:link.action action="index" controller="News">Dashboard</f:link.action></li>
+				</f:then>
+				<f:else>
+					<li><f:link.action action="index" controller="Login">Login</f:link.action></li>
+				</f:else>
+			</f:security.ifAuthenticated>
+		</ul>
+	</div><!--/.nav-collapse -->
+</nav>
+<div class="container" >
+	<div class="col-md-9">
+		<f:render section="Content" />
+	</div>
+	<div class="col-md-3 col-xs-12 col-sm-12 text-center">
+		<div class="fb-page" width="100%" data-href="https://www.facebook.com/1khmer.web" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/1khmer.web"><a href="https://www.facebook.com/1khmer.web">1Khmer News</a></blockquote></div></div>
+		<f:render section="Category" />
+	</div>
+</div>
+<hr>
+<footer class="text-center">
+	<p>Web Essentials</p>
+</footer>
+<script src="{f:uri.resource(path: 'js/jquery.min.js', package: 'WE.News')}"></script>
+<script src="{f:uri.resource(path: 'js/bootstrap.min.js', package: 'WE.News')}"></script>
+</body>
+</html>
